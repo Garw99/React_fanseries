@@ -1,0 +1,19 @@
+.heroMenuSection
+{
+    font-size: $fontsizeMediumTitle;
+    color: $primaryColor;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: $titlesFont;
+    
+    .heroSection--active
+    {
+        color: $textColor;
+    }
+
+    a:not(:last-child)
+    {
+        margin-bottom: 5.555vh;
+    }
+}

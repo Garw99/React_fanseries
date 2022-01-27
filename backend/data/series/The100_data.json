@@ -1,0 +1,180 @@
+{
+    "0":{
+       "backdrop_path":"\/hTExot1sfn7dHZjGrk0Aiwpntxt.jpg",
+       "created_by":{
+          "0":{
+             "id":1258670,
+             "credit_id":"525978ff760ee34661a6fbcb",
+             "name":"Jason Rothenberg",
+             "gender":2,
+             "profile_path":"\/vA6iZeVm5Vvcf3nlJPVscd6Jqqs.jpg"
+          }
+       },
+       "episode_run_time":{
+          "0":43
+       },
+       "first_air_date":"2014-03-19",
+       "genres":{
+          "0":{
+             "id":10765,
+             "name":"Sci-Fi & Fantasy"
+          },
+          "1":{
+             "id":18,
+             "name":"Dramma"
+          },
+          "2":{
+             "id":10759,
+             "name":"Action & Adventure"
+          }
+       },
+       "homepage":"http:\/\/www.cwtv.com\/shows\/the-100\/",
+       "id":48866,
+       "in_production":false,
+       "languages":{
+          "0":"en"
+       },
+       "last_air_date":"2020-09-30",
+       "last_episode_to_air":{
+          "air_date":"2020-09-30",
+          "episode_number":16,
+          "id":2373093,
+          "name":"L'ultima guerra",
+          "overview":"E' una lotta contro il tempo: per salvare Emori, per raggiungere Madi, per bloccare Cadogan. Tutti trascenderanno tranne Clarke, che commettera' un omicidio.",
+          "production_code":"T27.14066",
+          "season_number":7,
+          "still_path":"\/zUZTFrSu7OSq53FVBm99wolZFSa.jpg",
+          "vote_average":7.6,
+          "vote_count":5
+       },
+       "name":"The 100",
+       "next_episode_to_air":null,
+       "networks":{
+          "0":{
+             "name":"The CW",
+             "id":71,
+             "logo_path":"\/ge9hzeaU7nMtQ4PjkFlc68dGAJ9.png",
+             "origin_country":"US"
+          }
+       },
+       "number_of_episodes":100,
+       "number_of_seasons":7,
+       "origin_country":{
+          "0":"US"
+       },
+       "original_language":"en",
+       "original_name":"The 100",
+       "overview":"97 anni dopo una guerra nucleare globale che ha sconvolto il pianeta Terra, ci\u00f2 che rimane del genere umano \u00e8 una stazione spaziale, l'Arca, formata dalle 13 stazioni spaziali che si trovavano in orbita al momento del disastro. L'Arca ha leggi molto severe e chi trasgredisce viene punito con la morte per espulsione nel vuoto. Con l'aumento della popolazione e con il rapido deteriorarsi degli impianti di riciclo, i rappresentanti del governo decidono di inviare sulla Terra cento delinquenti. Questi giovani ragazzi intraprenderanno un viaggio molto pericoloso per cercare di ripopolare il Pianeta e creare una nuova comunit\u00e0.",
+       "popularity":329.21,
+       "poster_path":"\/wHIMMLFsk32wIzDmawWkYVbxFCS.jpg",
+       "production_companies":{
+          "0":{
+             "id":1957,
+             "logo_path":"\/3T19XSr6yqaLNK8uJWFImPgRax0.png",
+             "name":"Warner Bros. Television",
+             "origin_country":"US"
+          },
+          "1":{
+             "id":10067,
+             "logo_path":"\/p1kZoVNfkVvk7xyJZEposRxcfh8.png",
+             "name":"Alloy Entertainment",
+             "origin_country":"US"
+          },
+          "2":{
+             "id":37423,
+             "logo_path":null,
+             "name":"Bonanza Productions",
+             "origin_country":"US"
+          },
+          "3":{
+             "id":1081,
+             "logo_path":"\/vfcpaPf6WktaCIHqF4FJAcek8q2.png",
+             "name":"CBS Television Studios",
+             "origin_country":"US"
+          }
+       },
+       "production_countries":{
+          "0":{
+             "iso_3166_1":"US",
+             "name":"United States of America"
+          }
+       },
+       "seasons":{
+          "0":{
+             "air_date":"2014-03-19",
+             "episode_count":13,
+             "id":55214,
+             "name":"Stagione 1",
+             "overview":"",
+             "poster_path":"\/sshds579ebw5IqNFVPxCSWB4Usq.jpg",
+             "season_number":1
+          },
+          "1":{
+             "air_date":"2014-10-22",
+             "episode_count":16,
+             "id":62026,
+             "name":"Stagione 2",
+             "overview":"",
+             "poster_path":"\/4ngujsHppz4Imxh7qf9NQIIMlLY.jpg",
+             "season_number":2
+          },
+          "2":{
+             "air_date":"2016-01-21",
+             "episode_count":16,
+             "id":72595,
+             "name":"Stagione 3",
+             "overview":"",
+             "poster_path":"\/ayebqASxTXVSo9Qoug6M5YowZS0.jpg",
+             "season_number":3
+          },
+          "3":{
+             "air_date":"2017-02-01",
+             "episode_count":13,
+             "id":82960,
+             "name":"Stagione 4",
+             "overview":"",
+             "poster_path":"\/qCdJvikZUQkr4sOVYNkKHntRfha.jpg",
+             "season_number":4
+          },
+          "4":{
+             "air_date":"2018-04-24",
+             "episode_count":13,
+             "id":90748,
+             "name":"Stagione 5",
+             "overview":"",
+             "poster_path":"\/6uuX26IfMQeh3ARStMdToubrFEo.jpg",
+             "season_number":5
+          },
+          "5":{
+             "air_date":"2019-04-30",
+             "episode_count":13,
+             "id":116111,
+             "name":"Stagione 6",
+             "overview":"",
+             "poster_path":"\/wBzNjurA8ijJPF21Ggs9nbviIzi.jpg",
+             "season_number":6
+          },
+          "6":{
+             "air_date":"2020-05-19",
+             "episode_count":16,
+             "id":142731,
+             "name":"Stagione 7",
+             "overview":"",
+             "poster_path":"\/9OfbNi3mzyn0rd0vnCP8gj4szW0.jpg",
+             "season_number":7
+          }
+       },
+       "spoken_languages":{
+          "0":{
+             "english_name":"English",
+             "iso_639_1":"en",
+             "name":"English"
+          }
+       },
+       "status":"Ended",
+       "tagline":"",
+       "type":"Scripted",
+       "vote_average":7.9,
+       "vote_count":6596
+    }
+ }

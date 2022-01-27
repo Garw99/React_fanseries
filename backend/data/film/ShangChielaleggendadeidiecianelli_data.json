@@ -1,0 +1,65 @@
+[
+    {
+        "adult": false,
+        "backdrop_path": "\/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
+        "belongs_to_collection": null,
+        "budget": 150000000,
+        "genres": [
+            {
+                "id": 28,
+                "name": "Azione"
+            },
+            {
+                "id": 12,
+                "name": "Avventura"
+            },
+            {
+                "id": 14,
+                "name": "Fantasy"
+            }
+        ],
+        "homepage": "https:\/\/disney.it\/film\/shang-chi-e-la-leggenda-dei-dieci-anelli",
+        "id": 566525,
+        "imdb_id": "tt9376612",
+        "original_language": "en",
+        "original_title": "Shang-Chi and the Legend of the Ten Rings",
+        "overview": "Xu Shang-Chi \u00e8 il figlio di un potente criminale cinese. Cresciuto in un complesso isolato dal resto del mondo, \u00e8 stato addestrato nelle arti marziali e ha sviluppato abilit\u00e0 senza precedenti. Si \u00e8 per\u00f2 lasciato il passato alle spalle trasferendosi a San Francisco. Ben presto, il padre e la sua associazione lo costringeranno a fare i conti con chi \u00e8 e con l'eredit\u00e0 che si porta appresso.",
+        "popularity": 4700.045,
+        "poster_path": "\/rmwt8muOFAEoPH2en5ZHhqqmLpC.jpg",
+        "production_companies": [
+            {
+                "id": 420,
+                "logo_path": "\/hUzeosd33nzE5MCNsZxCGEKTXaQ.png",
+                "name": "Marvel Studios",
+                "origin_country": "US"
+            }
+        ],
+        "production_countries": [
+            {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+            }
+        ],
+        "release_date": "2021-09-01",
+        "revenue": 430238384,
+        "runtime": 132,
+        "spoken_languages": [
+            {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+            },
+            {
+                "english_name": "Mandarin",
+                "iso_639_1": "zh",
+                "name": "\u666e\u901a\u8bdd"
+            }
+        ],
+        "status": "Released",
+        "tagline": "Una nuova legenda Marvel \u00e8 sorta.",
+        "title": "Shang-Chi e la leggenda dei dieci anelli",
+        "video": false,
+        "vote_average": 7.9,
+        "vote_count": 3631
+    }
+]

@@ -1,0 +1,84 @@
+{
+"TheMagicians":
+{
+"Season_1":
+{
+"TheMagicians_S1_1": { "duration": "3261", "fileDimension": "520877330"},
+"TheMagicians_S1_2": { "duration": "2699", "fileDimension": "378528322"},
+"TheMagicians_S1_3": { "duration": "2691", "fileDimension": "377562769"},
+"TheMagicians_S1_4": { "duration": "2624", "fileDimension": "368012610"},
+"TheMagicians_S1_5": { "duration": "2693", "fileDimension": "377792158"},
+"TheMagicians_S1_6": { "duration": "2684", "fileDimension": "376433448"},
+"TheMagicians_S1_7": { "duration": "2624", "fileDimension": "368006548"},
+"TheMagicians_S1_8": { "duration": "2690", "fileDimension": "377386903"},
+"TheMagicians_S1_9": { "duration": "2692", "fileDimension": "377526163"},
+"TheMagicians_S1_10": { "duration": "2698", "fileDimension": "378373973"},
+"TheMagicians_S1_11": { "duration": "2692", "fileDimension": "377609074"},
+"TheMagicians_S1_12": { "duration": "2690", "fileDimension": "377377601"},
+"TheMagicians_S1_13": { "duration": "3052", "fileDimension": "428126003"}
+},
+"Season_2":
+{
+"TheMagicians_S2_1": { "duration": "2879", "fileDimension": "289853189"},
+"TheMagicians_S2_2": { "duration": "2697", "fileDimension": "241544767"},
+"TheMagicians_S2_3": { "duration": "2569", "fileDimension": "229328193"},
+"TheMagicians_S2_4": { "duration": "2692", "fileDimension": "239225829"},
+"TheMagicians_S2_5": { "duration": "2689", "fileDimension": "240992384"},
+"TheMagicians_S2_6": { "duration": "2692", "fileDimension": "239884090"},
+"TheMagicians_S2_7": { "duration": "2568", "fileDimension": "228291221"},
+"TheMagicians_S2_8": { "duration": "2701", "fileDimension": "240264780"},
+"TheMagicians_S2_9": { "duration": "2694", "fileDimension": "239289997"},
+"TheMagicians_S2_10": { "duration": "2673", "fileDimension": "237462973"},
+"TheMagicians_S2_11": { "duration": "2700", "fileDimension": "240041146"},
+"TheMagicians_S2_12": { "duration": "2815", "fileDimension": "249186279"},
+"TheMagicians_S2_13": { "duration": "2899", "fileDimension": "257325167"}
+},
+"Season_3":
+{
+"TheMagicians_S3_1": { "duration": "2657", "fileDimension": "470740958"},
+"TheMagicians_S3_2": { "duration": "2471", "fileDimension": "438123897"},
+"TheMagicians_S3_3": { "duration": "2475", "fileDimension": "438056480"},
+"TheMagicians_S3_4": { "duration": "2482", "fileDimension": "439304418"},
+"TheMagicians_S3_5": { "duration": "2480", "fileDimension": "439039963"},
+"TheMagicians_S3_6": { "duration": "2481", "fileDimension": "439357473"},
+"TheMagicians_S3_7": { "duration": "2696", "fileDimension": "457491978"},
+"TheMagicians_S3_8": { "duration": "2481", "fileDimension": "439097183"},
+"TheMagicians_S3_9": { "duration": "2438", "fileDimension": "431666358"},
+"TheMagicians_S3_10": { "duration": "2479", "fileDimension": "438780915"},
+"TheMagicians_S3_11": { "duration": "2684", "fileDimension": "448155074"},
+"TheMagicians_S3_12": { "duration": "2696", "fileDimension": "446170697"},
+"TheMagicians_S3_13": { "duration": "2694", "fileDimension": "431211862"}
+},
+"Season_4":
+{
+"TheMagicians_S4_1": { "duration": "2605", "fileDimension": "608473088"},
+"TheMagicians_S4_2": { "duration": "2491", "fileDimension": "619149312"},
+"TheMagicians_S4_3": { "duration": "2540", "fileDimension": "554176512"},
+"TheMagicians_S4_4": { "duration": "2539", "fileDimension": "529864704"},
+"TheMagicians_S4_5": { "duration": "2540", "fileDimension": "612286464"},
+"TheMagicians_S4_6": { "duration": "2537", "fileDimension": "639694848"},
+"TheMagicians_S4_7": { "duration": "2542", "fileDimension": "543866880"},
+"TheMagicians_S4_8": { "duration": "2540", "fileDimension": "585306112"},
+"TheMagicians_S4_9": { "duration": "2542", "fileDimension": "611045376"},
+"TheMagicians_S4_10": { "duration": "2542", "fileDimension": "657731584"},
+"TheMagicians_S4_11": { "duration": "2534", "fileDimension": "583991296"},
+"TheMagicians_S4_12": { "duration": "2517", "fileDimension": "603090944"},
+"TheMagicians_S4_13": { "duration": "2542", "fileDimension": "640395264"}
+},
+"Season_5":
+{
+"TheMagicians_S5_1": { "duration": "2856", "fileDimension": "435182105"},
+"TheMagicians_S5_2": { "duration": "2758", "fileDimension": "405894799"},
+"TheMagicians_S5_3": { "duration": "2756", "fileDimension": "447308921"},
+"TheMagicians_S5_4": { "duration": "2706", "fileDimension": "442244832"},
+"TheMagicians_S5_5": { "duration": "2704", "fileDimension": "412584065"},
+"TheMagicians_S5_6": { "duration": "2755", "fileDimension": "411621683"},
+"TheMagicians_S5_7": { "duration": "2757", "fileDimension": "427874246"},
+"TheMagicians_S5_8": { "duration": "2747", "fileDimension": "409526471"},
+"TheMagicians_S5_9": { "duration": "2759", "fileDimension": "427230762"},
+"TheMagicians_S5_10": { "duration": "2760", "fileDimension": "408120033"},
+"TheMagicians_S5_11": { "duration": "2759", "fileDimension": "396197924"},
+"TheMagicians_S5_12": { "duration": "2725", "fileDimension": "421220625"}
+}
+}
+}

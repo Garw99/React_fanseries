@@ -1,0 +1,125 @@
+{
+"Dexter":
+{
+"Season_1":
+{
+"Dexter_S1_1": { "duration": "3316", "fileDimension": "574825937"},
+"Dexter_S1_2": { "duration": "3416", "fileDimension": "585511052"},
+"Dexter_S1_3": { "duration": "3183", "fileDimension": "552256211"},
+"Dexter_S1_4": { "duration": "3610", "fileDimension": "619383732"},
+"Dexter_S1_5": { "duration": "3478", "fileDimension": "596013435"},
+"Dexter_S1_6": { "duration": "3307", "fileDimension": "573825161"},
+"Dexter_S1_7": { "duration": "3278", "fileDimension": "568385046"},
+"Dexter_S1_8": { "duration": "3356", "fileDimension": "582112761"},
+"Dexter_S1_9": { "duration": "3476", "fileDimension": "598908340"},
+"Dexter_S1_10": { "duration": "3526", "fileDimension": "605768432"},
+"Dexter_S1_11": { "duration": "3371", "fileDimension": "584788213"},
+"Dexter_S1_12": { "duration": "3529", "fileDimension": "617868958"}
+},
+"Season_2":
+{
+"Dexter_S2_1": { "duration": "3334", "fileDimension": "577957367"},
+"Dexter_S2_2": { "duration": "3491", "fileDimension": "600382399"},
+"Dexter_S2_3": { "duration": "3276", "fileDimension": "568235251"},
+"Dexter_S2_4": { "duration": "3313", "fileDimension": "574583896"},
+"Dexter_S2_5": { "duration": "3499", "fileDimension": "599365339"},
+"Dexter_S2_6": { "duration": "3351", "fileDimension": "581218435"},
+"Dexter_S2_7": { "duration": "3453", "fileDimension": "595572435"},
+"Dexter_S2_8": { "duration": "3103", "fileDimension": "537988903"},
+"Dexter_S2_9": { "duration": "3127", "fileDimension": "542353609"},
+"Dexter_S2_10": { "duration": "3468", "fileDimension": "593046162"},
+"Dexter_S2_11": { "duration": "3218", "fileDimension": "558179277"},
+"Dexter_S2_12": { "duration": "3225", "fileDimension": "559295186"}
+},
+"Season_3":
+{
+"Dexter_S3_1": { "duration": "3485", "fileDimension": "349976078"},
+"Dexter_S3_2": { "duration": "2964", "fileDimension": "348123011"},
+"Dexter_S3_3": { "duration": "2954", "fileDimension": "345812667"},
+"Dexter_S3_4": { "duration": "3264", "fileDimension": "347600811"},
+"Dexter_S3_5": { "duration": "2927", "fileDimension": "345202141"},
+"Dexter_S3_6": { "duration": "3246", "fileDimension": "346198864"},
+"Dexter_S3_7": { "duration": "3333", "fileDimension": "345032159"},
+"Dexter_S3_8": { "duration": "3279", "fileDimension": "347366022"},
+"Dexter_S3_9": { "duration": "3065", "fileDimension": "347635637"},
+"Dexter_S3_10": { "duration": "3008", "fileDimension": "348653427"},
+"Dexter_S3_11": { "duration": "3045", "fileDimension": "347666822"},
+"Dexter_S3_12": { "duration": "3093", "fileDimension": "353027798"}
+},
+"Season_4":
+{
+"Dexter_S4_1": { "duration": "3348", "fileDimension": "346386448"},
+"Dexter_S4_2": { "duration": "2924", "fileDimension": "344974859"},
+"Dexter_S4_3": { "duration": "3034", "fileDimension": "346122217"},
+"Dexter_S4_4": { "duration": "3152", "fileDimension": "569578534"},
+"Dexter_S4_5": { "duration": "2883", "fileDimension": "343071801"},
+"Dexter_S4_6": { "duration": "3271", "fileDimension": "350498188"},
+"Dexter_S4_7": { "duration": "3021", "fileDimension": "349686987"},
+"Dexter_S4_8": { "duration": "3096", "fileDimension": "352495123"},
+"Dexter_S4_9": { "duration": "2891", "fileDimension": "351461922"},
+"Dexter_S4_10": { "duration": "3220", "fileDimension": "350953444"},
+"Dexter_S4_11": { "duration": "2886", "fileDimension": "353045242"},
+"Dexter_S4_12": { "duration": "2947", "fileDimension": "345980816"}
+},
+"Season_5":
+{
+"Dexter_S5_1": { "duration": "3132", "fileDimension": "438848076"},
+"Dexter_S5_2": { "duration": "2866", "fileDimension": "436924812"},
+"Dexter_S5_3": { "duration": "2823", "fileDimension": "437486375"},
+"Dexter_S5_4": { "duration": "2912", "fileDimension": "436549179"},
+"Dexter_S5_5": { "duration": "2920", "fileDimension": "441285597"},
+"Dexter_S5_6": { "duration": "2901", "fileDimension": "436990141"},
+"Dexter_S5_7": { "duration": "2774", "fileDimension": "437812878"},
+"Dexter_S5_8": { "duration": "3016", "fileDimension": "438716245"},
+"Dexter_S5_9": { "duration": "3166", "fileDimension": "438248459"},
+"Dexter_S5_10": { "duration": "3094", "fileDimension": "438381183"},
+"Dexter_S5_11": { "duration": "2720", "fileDimension": "438626689"},
+"Dexter_S5_12": { "duration": "3344", "fileDimension": "440672303"}
+},
+"Season_6":
+{
+"Dexter_S6_1": { "duration": "3096", "fileDimension": "289912117"},
+"Dexter_S6_2": { "duration": "3073", "fileDimension": "287402380"},
+"Dexter_S6_3": { "duration": "2905", "fileDimension": "273230581"},
+"Dexter_S6_4": { "duration": "3007", "fileDimension": "288099962"},
+"Dexter_S6_5": { "duration": "2956", "fileDimension": "277132743"},
+"Dexter_S6_6": { "duration": "3126", "fileDimension": "293679465"},
+"Dexter_S6_7": { "duration": "2992", "fileDimension": "281822965"},
+"Dexter_S6_8": { "duration": "3024", "fileDimension": "282711222"},
+"Dexter_S6_9": { "duration": "2904", "fileDimension": "272284198"},
+"Dexter_S6_10": { "duration": "2837", "fileDimension": "265790381"},
+"Dexter_S6_11": { "duration": "2764", "fileDimension": "264070594"},
+"Dexter_S6_12": { "duration": "2959", "fileDimension": "276082395"}
+},
+"Season_7":
+{
+"Dexter_S7_1": { "duration": "3114", "fileDimension": "438828026"},
+"Dexter_S7_2": { "duration": "3364", "fileDimension": "444272375"},
+"Dexter_S7_3": { "duration": "3262", "fileDimension": "437929505"},
+"Dexter_S7_4": { "duration": "3101", "fileDimension": "438648061"},
+"Dexter_S7_5": { "duration": "3326", "fileDimension": "437679313"},
+"Dexter_S7_6": { "duration": "3136", "fileDimension": "441316173"},
+"Dexter_S7_7": { "duration": "3083", "fileDimension": "439399414"},
+"Dexter_S7_8": { "duration": "3321", "fileDimension": "440238495"},
+"Dexter_S7_9": { "duration": "3286", "fileDimension": "437488436"},
+"Dexter_S7_10": { "duration": "3102", "fileDimension": "437540892"},
+"Dexter_S7_11": { "duration": "3331", "fileDimension": "439372739"},
+"Dexter_S7_12": { "duration": "3215", "fileDimension": "447825600"}
+},
+"Season_8":
+{
+"Dexter_S8_1": { "duration": "3172", "fileDimension": "452415292"},
+"Dexter_S8_2": { "duration": "3429", "fileDimension": "449642567"},
+"Dexter_S8_3": { "duration": "2812", "fileDimension": "450435204"},
+"Dexter_S8_4": { "duration": "2880", "fileDimension": "460146042"},
+"Dexter_S8_5": { "duration": "2878", "fileDimension": "449958636"},
+"Dexter_S8_6": { "duration": "3309", "fileDimension": "449621780"},
+"Dexter_S8_7": { "duration": "3175", "fileDimension": "449949136"},
+"Dexter_S8_8": { "duration": "3015", "fileDimension": "453701970"},
+"Dexter_S8_9": { "duration": "3178", "fileDimension": "451920123"},
+"Dexter_S8_10": { "duration": "3024", "fileDimension": "454461238"},
+"Dexter_S8_11": { "duration": "3252", "fileDimension": "453179674"},
+"Dexter_S8_12": { "duration": "3203", "fileDimension": "453323830"}
+}
+}
+}

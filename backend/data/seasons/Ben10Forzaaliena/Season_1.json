@@ -1,0 +1,828 @@
+[
+    {
+        "_id": "52578461760ee36aaa61cab3",
+        "air_date": "2008-04-18",
+        "episodes": [
+            {
+                "air_date": "2008-04-18",
+                "episode_number": 1,
+                "crew": [
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb2f",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34921,
+                        "known_for_department": "Directing",
+                        "name": "Dan Riba",
+                        "original_name": "Dan Riba",
+                        "popularity": 1.673,
+                        "profile_path": null
+                    },
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb49",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34922,
+                        "known_for_department": "Directing",
+                        "name": "Butch Lukic",
+                        "original_name": "Butch Lukic",
+                        "popularity": 5.632,
+                        "profile_path": "\/8uYOmXU8Nupq0mRz7GNXnGsxkBx.jpg"
+                    },
+                    {
+                        "department": "Writing",
+                        "job": "Writer",
+                        "credit_id": "52578461760ee36aaa61cb13",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 105644,
+                        "known_for_department": "Writing",
+                        "name": "Dwayne McDuffie",
+                        "original_name": "Dwayne McDuffie",
+                        "popularity": 0.833,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [
+                    {
+                        "character": "Max Tennyson (voice)",
+                        "credit_id": "5a6fcfce9251413742006341",
+                        "order": 2,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 86006,
+                        "known_for_department": "Acting",
+                        "name": "Paul Eiding",
+                        "original_name": "Paul Eiding",
+                        "popularity": 2.337,
+                        "profile_path": "\/3Gxs9fTnkQLFlmMHROlgiDJ4p10.jpg"
+                    },
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd21bc3a36847dd009048",
+                        "order": 8,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 24362,
+                        "known_for_department": "Acting",
+                        "name": "Kevin Michael Richardson",
+                        "original_name": "Kevin Michael Richardson",
+                        "popularity": 6.661,
+                        "profile_path": "\/vgCGZMxz06kfnF97ilZTujyk7Ye.jpg"
+                    },
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd27d0e0a267966008cf8",
+                        "order": 9,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 80416,
+                        "known_for_department": "Acting",
+                        "name": "Richard McGonagle",
+                        "original_name": "Richard McGonagle",
+                        "popularity": 2.842,
+                        "profile_path": "\/eso1WgiZiqwOb1vp2sOF6uJyJn1.jpg"
+                    },
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd393c3a36847e0008d20",
+                        "order": 11,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34982,
+                        "known_for_department": "Acting",
+                        "name": "Jeff Bennett",
+                        "original_name": "Jeff Bennett",
+                        "popularity": 5.942,
+                        "profile_path": "\/p78svoOr99IA2oBOUzAH9cnPOwf.jpg"
+                    }
+                ],
+                "id": 369540,
+                "name": "Episodio 1",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/3bXvIUQcObKy5bxJk70DdkWPCGa.jpg",
+                "vote_average": 10,
+                "vote_count": 1
+            },
+            {
+                "air_date": "2008-04-18",
+                "episode_number": 2,
+                "crew": [
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb2f",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34921,
+                        "known_for_department": "Directing",
+                        "name": "Dan Riba",
+                        "original_name": "Dan Riba",
+                        "popularity": 1.673,
+                        "profile_path": null
+                    },
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb49",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34922,
+                        "known_for_department": "Directing",
+                        "name": "Butch Lukic",
+                        "original_name": "Butch Lukic",
+                        "popularity": 5.632,
+                        "profile_path": "\/8uYOmXU8Nupq0mRz7GNXnGsxkBx.jpg"
+                    },
+                    {
+                        "department": "Writing",
+                        "job": "Writer",
+                        "credit_id": "52578461760ee36aaa61cb13",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 105644,
+                        "known_for_department": "Writing",
+                        "name": "Dwayne McDuffie",
+                        "original_name": "Dwayne McDuffie",
+                        "popularity": 0.833,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd21bc3a36847dd009048",
+                        "order": 8,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 24362,
+                        "known_for_department": "Acting",
+                        "name": "Kevin Michael Richardson",
+                        "original_name": "Kevin Michael Richardson",
+                        "popularity": 6.661,
+                        "profile_path": "\/vgCGZMxz06kfnF97ilZTujyk7Ye.jpg"
+                    },
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd27d0e0a267966008cf8",
+                        "order": 9,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 80416,
+                        "known_for_department": "Acting",
+                        "name": "Richard McGonagle",
+                        "original_name": "Richard McGonagle",
+                        "popularity": 2.842,
+                        "profile_path": "\/eso1WgiZiqwOb1vp2sOF6uJyJn1.jpg"
+                    },
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd393c3a36847e0008d20",
+                        "order": 11,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34982,
+                        "known_for_department": "Acting",
+                        "name": "Jeff Bennett",
+                        "original_name": "Jeff Bennett",
+                        "popularity": 5.942,
+                        "profile_path": "\/p78svoOr99IA2oBOUzAH9cnPOwf.jpg"
+                    }
+                ],
+                "id": 369541,
+                "name": "Episodio 2",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/mi0wmnalzDOuabafuNi4Xyh8GuH.jpg",
+                "vote_average": 0,
+                "vote_count": 0
+            },
+            {
+                "air_date": "2008-04-26",
+                "episode_number": 3,
+                "crew": [
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb2f",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34921,
+                        "known_for_department": "Directing",
+                        "name": "Dan Riba",
+                        "original_name": "Dan Riba",
+                        "popularity": 1.673,
+                        "profile_path": null
+                    },
+                    {
+                        "department": "Writing",
+                        "job": "Writer",
+                        "credit_id": "52578461760ee36aaa61cb13",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 105644,
+                        "known_for_department": "Writing",
+                        "name": "Dwayne McDuffie",
+                        "original_name": "Dwayne McDuffie",
+                        "popularity": 0.833,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd21bc3a36847dd009048",
+                        "order": 8,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 24362,
+                        "known_for_department": "Acting",
+                        "name": "Kevin Michael Richardson",
+                        "original_name": "Kevin Michael Richardson",
+                        "popularity": 6.661,
+                        "profile_path": "\/vgCGZMxz06kfnF97ilZTujyk7Ye.jpg"
+                    },
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd27d0e0a267966008cf8",
+                        "order": 9,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 80416,
+                        "known_for_department": "Acting",
+                        "name": "Richard McGonagle",
+                        "original_name": "Richard McGonagle",
+                        "popularity": 2.842,
+                        "profile_path": "\/eso1WgiZiqwOb1vp2sOF6uJyJn1.jpg"
+                    },
+                    {
+                        "character": "Alan Albright \/ Heatblast (voice)",
+                        "credit_id": "6028289628723c003ed0f16b",
+                        "order": 12,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 2135035,
+                        "known_for_department": "Acting",
+                        "name": "Zeno Robinson",
+                        "original_name": "Zeno Robinson",
+                        "popularity": 1.025,
+                        "profile_path": "\/PyoUSDPm4AiGcp6W2WTBD2zSMt.jpg"
+                    }
+                ],
+                "id": 369542,
+                "name": "Episodio 3",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/cH8r2VvMcUvH4AVFDdg3mGQhHhN.jpg",
+                "vote_average": 0,
+                "vote_count": 0
+            },
+            {
+                "air_date": "2008-05-03",
+                "episode_number": 4,
+                "crew": [
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb49",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34922,
+                        "known_for_department": "Directing",
+                        "name": "Butch Lukic",
+                        "original_name": "Butch Lukic",
+                        "popularity": 5.632,
+                        "profile_path": "\/8uYOmXU8Nupq0mRz7GNXnGsxkBx.jpg"
+                    },
+                    {
+                        "department": "Writing",
+                        "job": "Writer",
+                        "credit_id": "52578462760ee36aaa61cbbb",
+                        "adult": false,
+                        "gender": 0,
+                        "id": 1219302,
+                        "known_for_department": "Writing",
+                        "name": "Matt Wayne",
+                        "original_name": "Matt Wayne",
+                        "popularity": 0.6,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [
+                    {
+                        "character": "Max Tennyson (voice)",
+                        "credit_id": "5a6fcfce9251413742006341",
+                        "order": 2,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 86006,
+                        "known_for_department": "Acting",
+                        "name": "Paul Eiding",
+                        "original_name": "Paul Eiding",
+                        "popularity": 2.337,
+                        "profile_path": "\/3Gxs9fTnkQLFlmMHROlgiDJ4p10.jpg"
+                    },
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd2f99251413745006757",
+                        "order": 10,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 31531,
+                        "known_for_department": "Acting",
+                        "name": "John DiMaggio",
+                        "original_name": "John DiMaggio",
+                        "popularity": 3.794,
+                        "profile_path": "\/awmyFwU6ErFJbGFFzhBYZ9AQn8m.jpg"
+                    }
+                ],
+                "id": 369543,
+                "name": "Episodio 4",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/sMVwSaHegpCwvHsypIR49Tgzyj2.jpg",
+                "vote_average": 5,
+                "vote_count": 1
+            },
+            {
+                "air_date": "2008-05-10",
+                "episode_number": 5,
+                "crew": [
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb2f",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34921,
+                        "known_for_department": "Directing",
+                        "name": "Dan Riba",
+                        "original_name": "Dan Riba",
+                        "popularity": 1.673,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [
+                    {
+                        "character": "Max Tennyson (voice)",
+                        "credit_id": "5a6fcfce9251413742006341",
+                        "order": 2,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 86006,
+                        "known_for_department": "Acting",
+                        "name": "Paul Eiding",
+                        "original_name": "Paul Eiding",
+                        "popularity": 2.337,
+                        "profile_path": "\/3Gxs9fTnkQLFlmMHROlgiDJ4p10.jpg"
+                    },
+                    {
+                        "character": "Mike Morningstar \/ Darkstar (voice)",
+                        "credit_id": "5a6fd15d0e0a267966008c06",
+                        "order": 6,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 3033,
+                        "known_for_department": "Acting",
+                        "name": "Wil Wheaton",
+                        "original_name": "Wil Wheaton",
+                        "popularity": 3.431,
+                        "profile_path": "\/yqEW17L7Fdg2RDRLLo4SqRHkjyw.jpg"
+                    }
+                ],
+                "id": 369544,
+                "name": "Episodio 5",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/eFdVDHhcuSP27WxQwF9il3zsxyG.jpg",
+                "vote_average": 0,
+                "vote_count": 0
+            },
+            {
+                "air_date": "2008-05-17",
+                "episode_number": 6,
+                "crew": [
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb49",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34922,
+                        "known_for_department": "Directing",
+                        "name": "Butch Lukic",
+                        "original_name": "Butch Lukic",
+                        "popularity": 5.632,
+                        "profile_path": "\/8uYOmXU8Nupq0mRz7GNXnGsxkBx.jpg"
+                    },
+                    {
+                        "department": "Writing",
+                        "job": "Writer",
+                        "credit_id": "52578462760ee36aaa61cc3d",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 150856,
+                        "known_for_department": "Writing",
+                        "name": "James Krieg",
+                        "original_name": "James Krieg",
+                        "popularity": 1.091,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [
+                    {
+                        "character": "Max Tennyson (voice)",
+                        "credit_id": "5a6fcfce9251413742006341",
+                        "order": 2,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 86006,
+                        "known_for_department": "Acting",
+                        "name": "Paul Eiding",
+                        "original_name": "Paul Eiding",
+                        "popularity": 2.337,
+                        "profile_path": "\/3Gxs9fTnkQLFlmMHROlgiDJ4p10.jpg"
+                    },
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd27d0e0a267966008cf8",
+                        "order": 9,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 80416,
+                        "known_for_department": "Acting",
+                        "name": "Richard McGonagle",
+                        "original_name": "Richard McGonagle",
+                        "popularity": 2.842,
+                        "profile_path": "\/eso1WgiZiqwOb1vp2sOF6uJyJn1.jpg"
+                    }
+                ],
+                "id": 369546,
+                "name": "Episodio 6",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/gAu52fOf6Jqt7Z2DeCEEScd8B05.jpg",
+                "vote_average": 0,
+                "vote_count": 0
+            },
+            {
+                "air_date": "2008-05-31",
+                "episode_number": 7,
+                "crew": [
+                    {
+                        "department": "Writing",
+                        "job": "Writer",
+                        "credit_id": "52578462760ee36aaa61cc09",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 160097,
+                        "known_for_department": "Writing",
+                        "name": "Len Uhley",
+                        "original_name": "Len Uhley",
+                        "popularity": 1.022,
+                        "profile_path": null
+                    },
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb2f",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34921,
+                        "known_for_department": "Directing",
+                        "name": "Dan Riba",
+                        "original_name": "Dan Riba",
+                        "popularity": 1.673,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [],
+                "id": 369545,
+                "name": "Episodio 7",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/rW2tW3uZDjOxNZg81G8j5DkA99w.jpg",
+                "vote_average": 0,
+                "vote_count": 0
+            },
+            {
+                "air_date": "2008-06-07",
+                "episode_number": 8,
+                "crew": [
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb49",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34922,
+                        "known_for_department": "Directing",
+                        "name": "Butch Lukic",
+                        "original_name": "Butch Lukic",
+                        "popularity": 5.632,
+                        "profile_path": "\/8uYOmXU8Nupq0mRz7GNXnGsxkBx.jpg"
+                    },
+                    {
+                        "department": "Writing",
+                        "job": "Writer",
+                        "credit_id": "52578462760ee36aaa61cbbb",
+                        "adult": false,
+                        "gender": 0,
+                        "id": 1219302,
+                        "known_for_department": "Writing",
+                        "name": "Matt Wayne",
+                        "original_name": "Matt Wayne",
+                        "popularity": 0.6,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [],
+                "id": 369547,
+                "name": "Episodio 8",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/7HDya3zD5zCQujAuiujxrLrtuo1.jpg",
+                "vote_average": 0,
+                "vote_count": 0
+            },
+            {
+                "air_date": "2008-06-14",
+                "episode_number": 9,
+                "crew": [
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb2f",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34921,
+                        "known_for_department": "Directing",
+                        "name": "Dan Riba",
+                        "original_name": "Dan Riba",
+                        "popularity": 1.673,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [
+                    {
+                        "character": "JT (voice)",
+                        "credit_id": "5a6fd12e0e0a267966008bdb",
+                        "order": 5,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 113916,
+                        "known_for_department": "Acting",
+                        "name": "Scott Menville",
+                        "original_name": "Scott Menville",
+                        "popularity": 3.043,
+                        "profile_path": "\/siBtL81DEUWujwhvvnA4r3NJpcJ.jpg"
+                    }
+                ],
+                "id": 369548,
+                "name": "Episodio 9",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/5luFhIMWczWXFTeKKcGKmhqyXQn.jpg",
+                "vote_average": 0,
+                "vote_count": 0
+            },
+            {
+                "air_date": "2008-07-05",
+                "episode_number": 10,
+                "crew": [
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb49",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34922,
+                        "known_for_department": "Directing",
+                        "name": "Butch Lukic",
+                        "original_name": "Butch Lukic",
+                        "popularity": 5.632,
+                        "profile_path": "\/8uYOmXU8Nupq0mRz7GNXnGsxkBx.jpg"
+                    },
+                    {
+                        "department": "Writing",
+                        "job": "Writer",
+                        "credit_id": "52578462760ee36aaa61cc3d",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 150856,
+                        "known_for_department": "Writing",
+                        "name": "James Krieg",
+                        "original_name": "James Krieg",
+                        "popularity": 1.091,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd27d0e0a267966008cf8",
+                        "order": 9,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 80416,
+                        "known_for_department": "Acting",
+                        "name": "Richard McGonagle",
+                        "original_name": "Richard McGonagle",
+                        "popularity": 2.842,
+                        "profile_path": "\/eso1WgiZiqwOb1vp2sOF6uJyJn1.jpg"
+                    }
+                ],
+                "id": 369549,
+                "name": "Episodio 10",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/4G0Xluam4BEU2viRAWUiWYXAI0o.jpg",
+                "vote_average": 0,
+                "vote_count": 0
+            },
+            {
+                "air_date": "2008-07-12",
+                "episode_number": 11,
+                "crew": [
+                    {
+                        "department": "Writing",
+                        "job": "Writer",
+                        "credit_id": "52578462760ee36aaa61cceb",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34931,
+                        "known_for_department": "Writing",
+                        "name": "Stan Berkowitz",
+                        "original_name": "Stan Berkowitz",
+                        "popularity": 1.62,
+                        "profile_path": null
+                    },
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb2f",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34921,
+                        "known_for_department": "Directing",
+                        "name": "Dan Riba",
+                        "original_name": "Dan Riba",
+                        "popularity": 1.673,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [],
+                "id": 369551,
+                "name": "Episodio 11",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/950AZzTpEMEC95X7xOMjOfRrf8Q.jpg",
+                "vote_average": 0,
+                "vote_count": 0
+            },
+            {
+                "air_date": "2008-07-19",
+                "episode_number": 12,
+                "crew": [
+                    {
+                        "department": "Writing",
+                        "job": "Writer",
+                        "credit_id": "52578462760ee36aaa61cc09",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 160097,
+                        "known_for_department": "Writing",
+                        "name": "Len Uhley",
+                        "original_name": "Len Uhley",
+                        "popularity": 1.022,
+                        "profile_path": null
+                    },
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb2f",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34921,
+                        "known_for_department": "Directing",
+                        "name": "Dan Riba",
+                        "original_name": "Dan Riba",
+                        "popularity": 1.673,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [],
+                "id": 369550,
+                "name": "Episodio 12",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/bseuKFdpUQcw6vzte4f7Q8s1NGq.jpg",
+                "vote_average": 0,
+                "vote_count": 0
+            },
+            {
+                "air_date": "2008-08-31",
+                "episode_number": 13,
+                "crew": [
+                    {
+                        "department": "Directing",
+                        "job": "Director",
+                        "credit_id": "52578461760ee36aaa61cb49",
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34922,
+                        "known_for_department": "Directing",
+                        "name": "Butch Lukic",
+                        "original_name": "Butch Lukic",
+                        "popularity": 5.632,
+                        "profile_path": "\/8uYOmXU8Nupq0mRz7GNXnGsxkBx.jpg"
+                    },
+                    {
+                        "department": "Writing",
+                        "job": "Writer",
+                        "credit_id": "52578462760ee36aaa61cbbb",
+                        "adult": false,
+                        "gender": 0,
+                        "id": 1219302,
+                        "known_for_department": "Writing",
+                        "name": "Matt Wayne",
+                        "original_name": "Matt Wayne",
+                        "popularity": 0.6,
+                        "profile_path": null
+                    }
+                ],
+                "guest_stars": [
+                    {
+                        "character": "Serena (voice)",
+                        "credit_id": "5a6fd0c99251413751006017",
+                        "order": 3,
+                        "adult": false,
+                        "gender": 1,
+                        "id": 14723,
+                        "known_for_department": "Acting",
+                        "name": "Vicki Lewis",
+                        "original_name": "Vicki Lewis",
+                        "popularity": 2.982,
+                        "profile_path": "\/x0LqiqXF53vLYX4O4Chpd1EWw8u.jpg"
+                    },
+                    {
+                        "character": "Bellicus \/ Warrior #2 (voice)",
+                        "credit_id": "5a6fd0f29251413748006391",
+                        "order": 4,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 34947,
+                        "known_for_department": "Acting",
+                        "name": "Kevin Conroy",
+                        "original_name": "Kevin Conroy",
+                        "popularity": 3.241,
+                        "profile_path": "\/4MVApMiARrecuVjTCPfi6Z7biLW.jpg"
+                    },
+                    {
+                        "character": "",
+                        "credit_id": "5a6fd21bc3a36847dd009048",
+                        "order": 8,
+                        "adult": false,
+                        "gender": 2,
+                        "id": 24362,
+                        "known_for_department": "Acting",
+                        "name": "Kevin Michael Richardson",
+                        "original_name": "Kevin Michael Richardson",
+                        "popularity": 6.661,
+                        "profile_path": "\/vgCGZMxz06kfnF97ilZTujyk7Ye.jpg"
+                    }
+                ],
+                "id": 369552,
+                "name": "Episodio 13",
+                "overview": "",
+                "production_code": "",
+                "season_number": 1,
+                "still_path": "\/42jckDI6q6xYKYBSkLA05WkfieT.jpg",
+                "vote_average": 0,
+                "vote_count": 0
+            }
+        ],
+        "name": "Stagione 1",
+        "overview": "",
+        "id": 16113,
+        "poster_path": "\/4hRKliNabiHz2EHM3LBkS3ulbSh.jpg",
+        "season_number": 1
+    }
+]

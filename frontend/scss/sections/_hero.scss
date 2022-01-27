@@ -1,0 +1,403 @@
+.hero
+{
+    width: 100%;
+    height: 100%;
+
+    .siteBackImage
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+        img
+        {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: grayscale(0.7) opacity(0.1);
+            animation: blurAnim 1.5s ease-out;
+        }
+    }
+
+    .hero__container
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .hero--carousel
+        {
+            width: 20%;
+            border-right: 1px solid #3C3A38;
+            background-color: rgba(23, 23, 23, 0.6);
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            
+            .swiper
+            {
+                width: 100%;
+                
+                .swiper-wrapper
+                {
+                    height: 100vh;
+
+                    .swiper-slide
+                    {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .swiper-slide-active .carouselElement__container
+                    {
+                        border: 1px solid $textColor;
+                        transform: scale(1.18);
+                        z-index: 2;
+                    }
+                }
+            }
+            
+            .carouselElement__container
+            {
+                width: 50%;
+                position: relative;
+                overflow: hidden;
+                border-radius: 5px;
+                transition: 0.35s ease-out;
+                cursor: grab;
+                
+                img
+                {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    object-fit: cover;
+                    object-position: center;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .carouselElement__container::after
+            {
+                content: "";
+                display: block;
+                padding-bottom: 150%;
+            }
+        }
+
+        .hero--carousel::before
+        {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 50%;
+            background: linear-gradient(180deg, rgba(23,23,23,1) 0%, rgba(23,23,23,0) 100%);
+            z-index: 2;
+            opacity: 0.92;
+            pointer-events: none;
+        }
+
+        .hero--carousel::after
+        {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 50%;
+            background: linear-gradient(0deg, rgba(23,23,23,1) 0%, rgba(23,23,23,0) 100%);
+            z-index: 2;
+            opacity: 0.92;
+            pointer-events: none;
+        }
+
+        .hero--elementInfo
+        {
+            width: 20%;
+            border-right: 1px solid #3C3A38;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            color: $textColor;
+            text-transform: uppercase;
+            padding: 8.333vh 0;
+            text-align: center;
+
+            h4
+            {
+                font-size: $fontSizeBigTitle;
+                font-weight: bold;
+                font-family: $titlesFont;
+            }
+
+            @keyframes textBottomToCenter
+            {
+                0%
+                {
+                    top: 100%;
+                    opacity: 0;
+                }   
+                100%
+                {
+                    top: 0%;
+                    opacity: 1;
+                }    
+            }
+
+            p
+            {
+                position: relative;
+                font-size: $fontSizeBigTitle;
+                overflow: hidden;
+                line-height: 0.8;
+                font-family: $titlesFont;
+                font-weight: 400;
+                line-height: inherit;
+
+                span
+                {
+                    position: relative;
+                    top: 100%;
+                    opacity: 0;
+                    animation: textBottomToCenter 0.6s forwards ease-out;
+                }
+            }
+
+            .elementInfo--year p span
+            {
+                animation-delay: 0.3s;
+            }
+
+            .elementInfo--duration p span
+            {
+                animation-delay: 0.6s;
+            }
+
+            .elementInfo--rait p span
+            {
+                animation-delay: 0.9s;
+            }
+        }
+
+        .hero--center
+        {
+            width: 40%;
+            display: flex;
+
+            .hero--favouriteBtn
+            {
+                flex-basis: 25%;
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+                padding-bottom: 4.629vh;
+
+                .favourite--btn
+                {
+                    width: 2.125vw;
+                    fill: $textColor;
+                    cursor: pointer;
+                }
+            }
+
+            .centerColumn
+            {
+                position: relative;
+                height: 100%;
+                flex-basis: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 0 13.888vh 0;
+
+                .centerColumn--logo
+                {
+                    width: 4.687vw;
+                    margin-top: 4.166vh;
+
+                    svg
+                    {
+                        width: 100%;
+                        fill: $textColor;
+                    }
+                }
+
+                .centerColumn--elementLogo
+                {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    width: 25vw;
+                    display: flex;
+                    justify-content: center;
+                    
+                    @keyframes spawnImage
+                    {
+                        0%
+                        {
+                            opacity: 0.3;
+                            transform: scale(0.9);
+                        }
+                        100%
+                        {
+                            opacity: 1;
+                            transform: scale(1);
+                        }
+                    }
+
+                    img
+                    {
+                        max-width: 100%;
+                        max-height: 20vh;
+                        animation: spawnImage 0.7s ease-out;
+                    }
+                }
+
+                .centerColumn--play
+                {
+                    width: 7.375vw;
+                    cursor: pointer;
+
+                    @keyframes pulse
+                    {
+                        0%
+                        {
+                            transform: scale(0.9);
+                        }
+                        100%
+                        {
+                            transform: scale(1);
+                        }    
+                    }
+
+                    svg
+                    {
+                        width: 100%;
+                        fill: $textColor;
+                    }
+
+                    svg path:nth-child(1)
+                    {
+                        transform-origin: center;
+                        animation: pulse 2s infinite linear alternate;
+                        animation-delay: 1s;
+                        opacity: 0.8;
+                    }
+                    
+                    svg path:nth-child(2)
+                    {
+                        transform-origin: center;
+                        animation: pulse 2s infinite linear alternate;
+                        animation-delay: 1.3s;
+                        opacity: 0.5;
+                    }
+                    
+                    svg path:nth-child(3)
+                    {
+                        transform-origin: center;
+                        animation: pulse 2s infinite linear alternate;
+                        animation-delay: 1.6s;
+                        opacity: 0.15;
+                    }
+                }
+            }
+
+            .hero--listBtn
+            {
+                flex-basis: 25%;
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+                padding-bottom: 4.629vh;
+
+                .list--btn
+                {
+                    width: 2.125vw;
+                    fill: $textColor;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .hero--elementText
+        {
+            width: 20%;
+            border-left: 1px solid #3C3A38;
+            overflow: hidden;
+            position: relative;
+
+            @keyframes verticalScrollText
+            {
+                0%
+                {
+                    transform: translate(-50%, 100%);
+                }
+                100%
+                {
+                    transform: translate(-50%, -100%);
+                }    
+            }
+
+            @keyframes verticalScrollText2
+            {
+                0%
+                {
+                    transform: translate(-50%, 0%);
+                }
+                100%
+                {
+                    transform: translate(-50%, -200%);
+                }    
+            }
+
+            .elementText--vertical
+            {
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, -30%);
+                writing-mode: vertical-rl;
+                font-size: (220/1920 * 100vw);
+                white-space: nowrap;
+                -webkit-text-stroke: 1px $primaryColor;
+                pointer-events: none;
+                color: transparent;
+                font-family: $frontFont;
+                font-weight: bold;
+                text-transform: uppercase;
+
+                @keyframes horizontalTextFade
+                {
+                    0%
+                    {
+                        opacity: 0;
+                    }
+                    100%
+                    {
+                        opacity: 1;
+                    }
+                }
+
+                p
+                {
+                    line-height: 0.8;
+                    animation: horizontalTextFade 1s forwards ease-out;
+                }
+            }
+        }
+    }
+}

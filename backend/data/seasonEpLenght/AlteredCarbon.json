@@ -1,0 +1,29 @@
+{
+"AlteredCarbon":
+{
+"Season_1":
+{
+"AlteredCarbon_S1_1": { "duration": "3683", "fileDimension": "604866228"},
+"AlteredCarbon_S1_2": { "duration": "3556", "fileDimension": "579083472"},
+"AlteredCarbon_S1_3": { "duration": "3197", "fileDimension": "524580245"},
+"AlteredCarbon_S1_4": { "duration": "3103", "fileDimension": "507826362"},
+"AlteredCarbon_S1_5": { "duration": "3368", "fileDimension": "554540396"},
+"AlteredCarbon_S1_6": { "duration": "2888", "fileDimension": "476129025"},
+"AlteredCarbon_S1_7": { "duration": "4188", "fileDimension": "692415987"},
+"AlteredCarbon_S1_8": { "duration": "3262", "fileDimension": "552471802"},
+"AlteredCarbon_S1_9": { "duration": "3345", "fileDimension": "547029232"},
+"AlteredCarbon_S1_10": { "duration": "3185", "fileDimension": "521765337"}
+},
+"Season_2":
+{
+"AlteredCarbon_S2_1": { "duration": "2821", "fileDimension": "461144064"},
+"AlteredCarbon_S2_2": { "duration": "2921", "fileDimension": "462909440"},
+"AlteredCarbon_S2_3": { "duration": "3325", "fileDimension": "469209088"},
+"AlteredCarbon_S2_4": { "duration": "3509", "fileDimension": "472248320"},
+"AlteredCarbon_S2_5": { "duration": "3144", "fileDimension": "467056640"},
+"AlteredCarbon_S2_6": { "duration": "2702", "fileDimension": "459616256"},
+"AlteredCarbon_S2_7": { "duration": "3037", "fileDimension": "464470016"},
+"AlteredCarbon_S2_8": { "duration": "3285", "fileDimension": "468787200"}
+}
+}
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "cast": [
+            {
+                "adult": false,
+                "gender": 2,
+                "id": 127387,
+                "known_for_department": "Acting",
+                "name": "Yuri Lowenthal",
+                "original_name": "Yuri Lowenthal",
+                "popularity": 2.491,
+                "profile_path": "\/68tBtkEmCUws4BAr2TQ5OIs2hIR.jpg",
+                "character": "Ben Tennyson (voice)",
+                "credit_id": "52578466760ee36aaa61d232",
+                "order": 1
+            },
+            {
+                "adult": false,
+                "gender": 2,
+                "id": 60227,
+                "known_for_department": "Acting",
+                "name": "Greg Cipes",
+                "original_name": "Greg Cipes",
+                "popularity": 1.981,
+                "profile_path": "\/85KmSjF70eRWPIGAetiB8fxm0d1.jpg",
+                "character": "Kevin Levin (voice)",
+                "credit_id": "52578466760ee36aaa61d250",
+                "order": 2
+            },
+            {
+                "adult": false,
+                "gender": 2,
+                "id": 23680,
+                "known_for_department": "Acting",
+                "name": "Dee Bradley Baker",
+                "original_name": "Dee Bradley Baker",
+                "popularity": 4.549,
+                "profile_path": "\/9oFnToDZWp0I484s7Ua1EzNQQ2m.jpg",
+                "character": "Swampfire (voice)",
+                "credit_id": "52578466760ee36aaa61d290",
+                "order": 4
+            },
+            {
+                "adult": false,
+                "gender": 1,
+                "id": 34486,
+                "known_for_department": "Acting",
+                "name": "Ashley Johnson",
+                "original_name": "Ashley Johnson",
+                "popularity": 13.251,
+                "profile_path": "\/8s36QwB7Zq3PrbY1W6a6ctTFFoe.jpg",
+                "character": "Gwen Tennyson (voice)",
+                "credit_id": "52578467760ee36aaa61d2d0",
+                "order": 6
+            }
+        ],
+        "crew": [
+            {
+                "adult": false,
+                "gender": 2,
+                "id": 141043,
+                "known_for_department": "Production",
+                "name": "Sam Register",
+                "original_name": "Sam Register",
+                "popularity": 2.69,
+                "profile_path": "\/9K1RTX51GDbegrAhMeLQLSGyF3B.jpg",
+                "credit_id": "52578467760ee36aaa61d444",
+                "department": "Production",
+                "job": "Producer"
+            }
+        ],
+        "id": 6040
+    }
+]

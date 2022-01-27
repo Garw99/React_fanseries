@@ -1,0 +1,37 @@
+{
+"LoveDeathRobots":
+{
+"Season_1":
+{
+"LoveDeathRobots_S1_1": { "duration": "723", "fileDimension": "527596875"},
+"LoveDeathRobots_S1_2": { "duration": "1023", "fileDimension": "765855708"},
+"LoveDeathRobots_S1_3": { "duration": "663", "fileDimension": "455713527"},
+"LoveDeathRobots_S1_4": { "duration": "1064", "fileDimension": "793600151"},
+"LoveDeathRobots_S1_5": { "duration": "414", "fileDimension": "256676570"},
+"LoveDeathRobots_S1_6": { "duration": "1014", "fileDimension": "749880620"},
+"LoveDeathRobots_S1_7": { "duration": "810", "fileDimension": "586721865"},
+"LoveDeathRobots_S1_8": { "duration": "757", "fileDimension": "550718256"},
+"LoveDeathRobots_S1_9": { "duration": "1069", "fileDimension": "807437401"},
+"LoveDeathRobots_S1_10": { "duration": "1063", "fileDimension": "805777808"},
+"LoveDeathRobots_S1_11": { "duration": "661", "fileDimension": "471765556"},
+"LoveDeathRobots_S1_12": { "duration": "1000", "fileDimension": "748315336"},
+"LoveDeathRobots_S1_13": { "duration": "641", "fileDimension": "443764446"},
+"LoveDeathRobots_S1_14": { "duration": "631", "fileDimension": "440877667"},
+"LoveDeathRobots_S1_15": { "duration": "505", "fileDimension": "322173769"},
+"LoveDeathRobots_S1_16": { "duration": "921", "fileDimension": "679227817"},
+"LoveDeathRobots_S1_17": { "duration": "554", "fileDimension": "382187499"},
+"LoveDeathRobots_S1_18": { "duration": "652", "fileDimension": "456906184"}
+},
+"Season_2":
+{
+"LoveDeathRobots_S2_1": { "duration": "759", "fileDimension": "544783336"},
+"LoveDeathRobots_S2_2": { "duration": "784", "fileDimension": "539576170"},
+"LoveDeathRobots_S2_3": { "duration": "1107", "fileDimension": "812795646"},
+"LoveDeathRobots_S2_4": { "duration": "1084", "fileDimension": "786895057"},
+"LoveDeathRobots_S2_5": { "duration": "688", "fileDimension": "464401282"},
+"LoveDeathRobots_S2_6": { "duration": "442", "fileDimension": "258204018"},
+"LoveDeathRobots_S2_7": { "duration": "812", "fileDimension": "542432496"},
+"LoveDeathRobots_S2_8": { "duration": "834", "fileDimension": "571265735"}
+}
+}
+}
