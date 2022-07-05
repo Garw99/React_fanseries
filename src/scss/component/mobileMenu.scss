@@ -1,0 +1,76 @@
+.mobileMenu
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding: 25px 20px 0 20px;
+    z-index: 999;
+
+    .mobileMenu__searchBar
+    {
+        display: flex;
+        flex-basis: 85%;
+        justify-content: space-between;
+        border: 1px solid rgba($color: $textColor, $alpha: 0.2);
+        border-radius: $defaultBorderRadius;
+        padding: 10px 15px;
+
+        .mobileMenu__icon
+        {
+            flex-basis: 8%;
+            fill: $textColor;
+
+            svg
+            {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .mobileMenu__input
+        {
+            flex-basis: 88%;
+            border: none;
+        }
+    }
+
+    .mobileMenu__button
+    {
+        position: relative;
+        flex-basis: 15%;
+        border: 1px solid rgba($color: $textColor, $alpha: 0.2);
+        border-radius: $defaultBorderRadius;
+        margin-left: 10px;
+
+        .mobileMenu__container
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+
+            .mobileMenu__image
+            {
+                width: 100%;
+                height: 100%;
+
+                img
+                {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        &::before
+        {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+    }
+}

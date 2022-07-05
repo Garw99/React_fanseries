@@ -1,0 +1,123 @@
+.adminCDN__container
+{
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    overflow: hidden;
+    overflow-y: scroll;
+
+    .adminCDN__section
+    {
+        width: 70%;
+        margin: auto;
+        border: 1px solid $borderColor;
+        border-radius: $defaultBorderRadius;
+        padding: 1vw;
+
+        .adminCDN__row
+        {
+            display: flex;
+            justify-content: space-between;
+
+            .select
+            {
+                flex-basis: 83% !important;
+            }
+
+            input
+            {
+                flex-basis: 33%;
+            }
+
+            button
+            {
+                flex-basis: 15%;
+                margin-left: 1vw;
+            }
+
+            &.left
+            {
+                justify-content: flex-start;
+            }
+
+            &.three
+            {
+                input
+                {
+                    flex-basis: 38.7%;
+                }
+
+                button
+                {
+                    flex-basis: 20%;
+                }
+            }
+        }
+
+        > *:not(:last-child)
+        {
+            margin-bottom: 30px;
+        }
+
+        input
+        {
+            width: 100%;
+            font-size: $fontsizeTitleText;
+        }
+
+        .select
+        {
+            width: 100%;
+            font-size: $fontsizeTitleText;
+            color: $textColor;
+        }
+
+        button
+        {
+            width: 100%;
+            @include button($textColor, $bgColor, none, $defaultPaddingTopBottomBtns 2vw, 700);
+            font-size: $fontsizeBtns;
+        }
+
+        .adminCDN__imagesGrid
+        {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            
+            .adminCDN__gridBlock
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                flex-basis: 24%;
+
+                .adminCDN__Image
+                {
+                    position: relative;
+                    border: 1px solid $textColor;
+                    width: 100%;
+                    margin-bottom: 10px;
+
+                    &::before
+                    {
+                        content: "";
+                        display: block;
+                        padding-bottom: 100%;
+                    }
+
+                    img
+                    {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        width: 80%;
+                        height: 85%;
+                        transform: translate(-50%,-50%);
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+}

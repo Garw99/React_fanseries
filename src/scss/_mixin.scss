@@ -1,0 +1,33 @@
+@mixin button($bgColor: transparent, $color: $textColor, $border: 1px solid $textColor, $padding: $defaultPaddingBtns, $weight: 400)
+{
+    background-color: $bgColor;
+    border: $border;
+    padding: $padding;
+    color: $color;
+    font-family: $titlesFont;
+    font-size: $fontsizeBtns;
+    border-radius: $defaultBorderRadius;
+    font-weight: $weight;
+    text-transform: uppercase;
+    line-height: 35px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.outline
+    {
+        border: 1px solid $textColor;
+        color: $textColor;
+        background-color: transparent;
+    }
+
+    svg
+    {
+        width: $defaultWidthIcon;
+        height: $defaultHeightIcon;
+        fill: $textColor;
+        transition: 0.2s ease-out;
+    }
+}

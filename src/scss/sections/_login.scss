@@ -1,0 +1,125 @@
+.login
+{
+    width: 100%;
+    height: 100%;
+    
+    .login__image
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        filter: brightness(0.3) opacity(0.3);
+        pointer-events: none;
+    }
+
+    .login__container
+    {
+        display: flex;
+        width: 100%;
+        height: 100%;
+
+        .login__column
+        {
+            flex-basis: 16.666%;
+        }
+
+        .login__column:not(:last-child)
+        {
+            border-right: 1px solid $borderColor;
+        }
+
+        .login__columnCenter
+        {
+            position: relative;
+            flex-basis: 33.333%;
+            border-right: 1px solid $borderColor;
+            padding: (45/1080) * 100vh 0;
+
+            .login__contentContainer
+            {
+                position: relative;
+                width: 62.5%;
+                height: 100%;
+                margin: auto;
+                align-self: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                z-index: 2;
+
+                .login__logo
+                {
+                    width: 4.687vw;
+
+                    svg
+                    {
+                        width: 100%;
+                        height: 100%;
+                        fill: $textColor;
+                    }
+                }
+
+                .login__form
+                {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+
+                    h1
+                    {
+                        font-size: (85/1920) * 100vw;
+                        font-family: $frontFont;
+                        color: $textColor;
+                        text-transform: uppercase;
+                        margin-bottom: (20/1080) * 100vh;
+                    }
+
+                    input
+                    {
+                        width: 100%;
+                        font-size: $fontsizeTitleText;
+                    }
+
+                    input:not(:last-of-type)
+                    {
+                        margin-bottom: (20/1080) * 100vh;
+                    }
+
+                    p
+                    {
+                        font-size: $fontsizeText;
+                        font-family: $textFont;
+                        color: red;
+                        margin: (20/1080) * 100vh 0; 
+                    }
+
+                    button
+                    {
+                        @include button($textColor, $bgColor, none, $defaultPaddingTopBottomBtns 2vw, 700);
+                        font-size: $fontsizeBtns;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .login__columnCenter::before
+        {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba($color: $bgColor, $alpha: 0.6);
+            z-index: 1;
+        }
+    }
+}

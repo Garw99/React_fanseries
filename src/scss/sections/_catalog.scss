@@ -1,0 +1,494 @@
+.catalog__container
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: $defaultPaddingTop 0 0 $defaultPaddingLeft;
+    scrollbar-width: none;
+    z-index: 1;
+
+    h3
+    {
+        color: #fff;
+        font-size: $fontSizeBigTitle;
+        font-family: $frontFont;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1;
+    }
+
+    .catalogFilters
+    {
+        position: relative;
+        margin: 3.703vh 0;
+        z-index: 1;
+        color: $textColor !important;
+        font-size: $textFont;
+        scrollbar-width: none;
+        display: flex;
+        z-index: 10;
+
+        > *:not(:first-child)
+        {
+            margin-left: 2.083vw;
+        }
+
+        > input
+        {
+            width: 15.625vw;
+            transition: 0.2s ease-out;
+            font-size: $fontsizeText;
+        }
+
+        > input:hover
+        {
+            border-color: $specialColor;
+        }
+
+        .catalogFilters--trashIcon, .catalogFilters--filtersIcon
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0;
+            cursor: pointer;
+            transition: 0.2s ease-out;
+            border: 1px solid $textColor;
+            padding: 0 0.5vw;
+            border-radius: $defaultBorderRadius;
+
+            svg
+            {
+                fill: $textColor;
+                width: 80%;
+                height: 80%;
+            }
+        }
+
+        .catalogFilters--trashIcon:hover, .catalogFilters--filtersIcon:hover
+        {
+            border: 1px solid $specialColor;
+        }
+
+        .catalogFilters--trashIcon
+        {
+            margin-left: 1vw;
+        }
+
+        .catalogFilters--filtersIcon
+        {
+            margin-left: 1vw;
+        }
+    }
+
+    .catalog--content .carousel__container
+    {
+        position: relative;
+    }
+
+    .catalog--content .carousel__container:not(:first-child)
+    {
+        margin-top: 5rem;
+    }
+
+    .catalog--content
+    {
+        width: 100%;
+        padding-bottom: $defaultPaddingTop;
+
+        .catalogResult-title
+        {
+            color: $textColor;
+            font-size: $fontsizeMediumTitle;
+            font-family: $titlesFont;
+            margin-bottom: 1.851vh;
+            font-weight: 300;
+        }
+
+        .catalogResultFilters__Container
+        {
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 2vw;
+            padding-right: $defaultPaddingLeft;
+        }
+
+        .carousel__container, .catalogResultFilters__Container
+        {
+            .swiper
+            {
+                overflow:inherit;
+                margin-right: 2vw;
+            }
+
+            .catalog--title
+            {
+                color: #fff;
+                font-size: $fontsizeMediumTitle;
+                font-family: $titlesFont;
+                font-weight: 400;
+                margin-bottom: 1.851vh;
+            }
+            
+
+            .horizontalCatalogCarousel--Card
+            {
+                position: relative;
+                background-color: $bgColor;
+                width: 100%;
+                cursor: pointer;
+                transition: 0.3s ease-out;
+                z-index: 2;
+
+                .horizontalCatalogCarousel--Link
+                {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 85%;
+                    height: 100%;
+                    display: block;
+                    z-index: 10;
+                }
+
+                .card--media
+                {
+                    position: relative;
+                    overflow: hidden;
+                    border-radius: $defaultBorderRadius;
+
+                    &.activeVideo
+                    {
+                        .card--image
+                        {
+                            opacity: 0;
+                        }
+
+                        .elementInfoPage-video
+                        {
+                            display: block;
+                            opacity: 1;
+                        }
+
+                        .card--logoDuration__Container .card--logoDuration .card--logo
+                        {
+                            transition-delay: 1s;
+                            opacity: 1;
+                        }
+                    }
+
+                    .card--image
+                    {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                        transition: 0.2s ease-out;
+                        z-index: 1;
+                    }
+
+                    .elementInfoPage-video
+                    {
+                        display: none;
+                        opacity: 0;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100% !important;
+                        height: 100% !important;
+                        object-fit: cover;
+                        object-position: center;
+                        opacity: 0;
+                        z-index: 1;
+                        pointer-events: none;
+                        transform: scale(1.5);
+                        filter: brightness(0.5) grayscale(0.7);
+                    }
+
+                    .card--logoDuration__Container
+                    {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 85%;
+                        height: 100%;
+                        padding: 0.520vw;
+                        pointer-events: none;
+                        z-index: 3;
+
+                        .card--logoDuration
+                        {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            overflow: hidden;
+
+                            .card--duration
+                            {
+                                width: 100%;
+                                padding: 0.520vw;
+                                transform-origin: center;
+                                transform: scaleX(0);
+                                opacity: 0;
+
+                                .duration--total
+                                {
+                                    position: relative;
+                                    width: 100%;
+                                    height: 3px;
+                                    background-color: $primaryColor;
+                                    display: block;
+
+                                    .duration--currentTime
+                                    {
+                                        display: block;
+                                        position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                        width: 80%;
+                                        height: 3px;
+                                        background-color: $specialColor;
+                                    }
+                                }
+                            }
+
+                            .card--logo
+                            {
+                                width: 43.731%;
+                                max-height: 5vh;
+                                opacity: 0;
+                                transition: 0.3s ease-out;
+
+                                img
+                                {
+                                    height: 100%;
+                                    max-width: 100%;
+                                }
+                            }
+                        }
+                    }
+
+                    .card--btns
+                    {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 15%;
+                        height: 100%;
+                        background-color: rgba(23, 23, 23, 0.6);
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-between;
+                        border-radius: 0 $defaultBorderRadius 0 0;
+                        padding: 1vw 0;
+                        z-index: 5;
+                        transform: translateX(100%);
+
+                        .hearthPlus--btn
+                        {
+                            width: $defaultWidthIcon;
+                            height: $defaultHeightIcon;
+
+                            svg:nth-child(1)
+                            {
+                                display: none;
+                            }
+
+                            &.active
+                            {
+                                svg:nth-child(1)
+                                {
+                                    display: block;
+                                    fill: $specialColor;
+                                }
+
+                                svg:nth-child(2)
+                                {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        .addList--btn
+                        {
+                            width: $defaultWidthIcon;
+                            height: $defaultHeightIcon;
+
+                            svg:nth-child(1)
+                            {
+                                display: none;
+                            }
+
+                            &.active
+                            {
+                                svg:nth-child(1)
+                                {
+                                    display: block;
+                                    fill: $specialColor;
+                                }
+
+                                svg:nth-child(2)
+                                {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        .play--btn
+                        {
+                            width: $defaultWidthIcon;
+                            height: $defaultHeightIcon;
+                        }
+
+                        .mute--btn
+                        {
+                            width: $defaultWidthIcon;
+                            height: $defaultHeightIcon;
+
+                            svg:nth-child(1)
+                            {
+                                display: none;
+                            }
+                        }
+
+                        .mute--btn.mute
+                        {
+                            svg:nth-child(1)
+                            {
+                                display: block;
+                            }
+
+                            svg:nth-child(2)
+                            {
+                                display: none;
+                            }
+                        }
+
+                        svg
+                        {
+                            width: 100%;
+                            height: 100%;
+                            fill: $textColor;
+                        }
+
+                        svg:hover
+                        {
+                            transform: scale(1.05);
+                            fill: $specialColor;
+                        }
+
+                        &::before
+                        {
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            display: block;
+                            background-color: $borderColor;
+                            width: 1px;
+                            height: 100%;
+                        }
+                    }
+                }
+
+                .card--media::after
+                {
+                    content: "";
+                    display: block;
+                    padding-bottom: 59.259%;
+                }
+            }
+
+            .verticalCatalogCarousel--Card
+            {
+                position: relative;
+                background-color: $bgColor;
+                width: 100%;
+                cursor: pointer;
+                transition: 0.3s ease-out;
+                overflow: hidden;
+                border-radius: $defaultBorderRadius;
+                box-shadow: 0 0 8px rgba(0,0,0,0.6);
+                z-index: 2;
+
+                img
+                {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                    transition: 0.4s ease-out;
+                }
+            }
+
+            .verticalCatalogCarousel--Card:hover
+            {
+                img
+                {
+                    transform: scale(1.1);
+                }
+            }
+
+            .verticalCatalogCarousel--Card::before
+            {
+                content: "";
+                display: block;
+                width: 100%;
+                padding-bottom: 148%;
+            }
+
+            .horizontalCatalogCarousel--Card:hover
+            {
+                z-index: 3;
+            }
+
+            .horizontalCatalogCarousel--Card:hover
+            {
+                transform: scale(1.3);
+                box-shadow: 0 0 8px rgba(0,0,0,1);
+                border-radius: $defaultBorderRadius $defaultBorderRadius 0 0;
+                transition-delay: 0.5s;
+                z-index: 3;
+            }
+
+            .horizontalCatalogCarousel--Card:hover .card--media
+            {
+                border-radius: $defaultBorderRadius;
+                border: 1px solid $primaryColor;
+                transition-delay: 0.5s;
+
+                .card--image
+                {
+                    z-index: -1;
+                    filter: grayscale(80%) opacity(0.3);
+                    transition-delay: 0.5s;
+                }
+
+                video
+                {
+                    z-index: 1;
+                    filter: grayscale(80%) opacity(0.5);
+                    transition-delay: 2.5s;
+                }
+            }
+
+            .horizontalCatalogCarousel--Card:hover .card--btns
+            {
+                transform: translateX(0) scale(1.0001);
+                transition: 0.6s ease-out;
+                transition-delay: 0.8s;
+            }
+        }
+    }
+}

@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@300;400;500;700&display=swap');
+@import '_variables.scss';
+@import './mixin';
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scrollbar-width: none;
+}
+
+#root
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body
+{
+  background-color: $bgColor;
+  font-size: 14px;
+  line-height: inherit;
+  scrollbar-color: $textColor $bgColor;
+  scrollbar-width: none;
+}
+
+a
+{
+  text-decoration: none;
+  color: $primaryColor;
+}
+
+ul
+{
+  list-style: none;
+}
+
+img
+{
+  display: block;
+}
+
+input
+{
+  background-color: transparent;
+  border: 1px solid $textColor;
+  outline: transparent;
+  color: $textColor;
+  padding: 0.3vw 1vw;
+  font-family: $textFont;
+  border-radius: $defaultBorderRadius;
+}
+
+input[type="range"]
+{
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  height: 4px;
+  overflow: hidden;
+}
+
+/***** Chrome, Safari, Opera, and Edge Chromium *****/
+input[type="range"]::-webkit-slider-runnable-track {
+  background: $borderColor;
+  height: 0.5rem;
+  border-radius: $defaultBorderRadius;
+  height: 4px;
+}
+
+/******** Firefox ********/
+input[type="range"]::-moz-range-track {
+  background: $borderColor;
+  height: 0.5rem;
+  border-radius: $defaultBorderRadius;
+  height: 4px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  background-color: $specialColor; 
+}
+
+/***** Thumb Styles *****/
+/***** Firefox *****/
+input[type="range"]::-moz-range-thumb {
+  border: none; /*Removes extra border that FF applies*/
+  border-radius: 0; /*Removes default border-radius that FF applies*/
+  background-color: $specialColor;
+}
+
+::placeholder
+{
+  color: $textColor;
+  opacity: 1;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $textColor; 
+}
+
+::-webkit-scrollbar-track {
+  background: $bgColor; 
+}
+
+button
+{
+  border: none;
+  background-color: transparent;
+  border-radius: $defaultBorderRadius;
+}
+
+button:active
+{
+  filter: brightness(0.7);
+}
+
+.select
+{
+  font-family: $textFont;
+  font-size: $fontsizeText;
+  width: 11.875vw;
+
+  .css-tlfecz-indicatorContainer, .css-1gtu0rj-indicatorContainer
+  {
+      position: relative;
+      padding: 0;
+      margin-right: 0.7vw;
+  }
+
+  .css-tlfecz-indicatorContainer svg, .css-1gtu0rj-indicatorContainer svg
+  {
+      display: none;
+  }
+
+  .css-tlfecz-indicatorContainer::before, .css-1gtu0rj-indicatorContainer::before
+  {
+      content: "";
+      display: block;
+      width: 0.8vw;
+      height: 0.8vw;
+      background-color: $textColor;
+      border-radius: $defaultBorderRadius;
+  }
+
+  .css-1s2u09g-control
+  {
+      background-color: transparent;
+      border-radius: $defaultBorderRadius;
+      border: 1px solid $textColor;
+      cursor: pointer !important;
+      transition: 0.2s ease-out;
+  }
+
+  .css-1s2u09g-control:hover
+  {
+      border-color: $specialColor;
+  }
+
+  .css-14el2xx-placeholde, .css-1rhbuit-multiValue
+  {
+      background-color: $primaryColor;
+  }
+  
+  .css-12jo7m5
+  {
+      color: $textColor;
+  }
+
+  .css-26l3qy-menu
+  {
+      background-color: $bgColor;
+      border-radius: $defaultBorderRadius;
+      scrollbar-width: none;
+      border: 1px solid $textColor;
+      margin: 0;
+  }
+
+  .css-tj5bde-Svg
+  {
+      fill: $textFont;
+  }
+
+  .css-1pahdxg-control:hover, .css-1pahdxg-control, .css-1jwfq3j-control:hover
+  {
+      border-color: $textColor !important;
+  }
+
+  .css-1pahdxg-control, .css-1jwfq3j-control
+  {
+      box-shadow: none !important;
+      background-color: transparent !important;
+      border-radius: $defaultBorderRadius !important;
+      border-color: $textColor !important;
+  }
+
+  .css-xb97g8:hover
+  {
+      background-color: $textColor;
+      color: $specialColor;
+  }
+
+  .css-xb97g8
+  {
+      padding: 0 8px !important;
+      margin-left: 8px;
+  }
+
+  .css-12jo7m5
+  {
+      border-radius: $defaultBorderRadius;
+      margin: 0 0.5vw;
+  }
+
+  .css-319lph-ValueContainer, .css-1d8n9bt
+  {
+      padding: 0.3vw 1vw;
+      padding-right: 0;
+  }
+
+  .css-qc6sy-singleValue, .css-6j8wv5-Input, .css-14el2xx-placeholder, #react-select-3-input
+  {
+      color: $textColor !important;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .css-1okebmr-indicatorSeparator
+  {
+      display: none !important;
+  }
+
+  .css-ackcql
+  {
+    margin: 0;
+  }
+}
+
+@keyframes fadeUp
+{
+  0%
+  {
+    transform: translateY(-15%);
+    opacity: 0;
+  }
+  100%
+  {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes scrollTop
+{
+  0%
+  {
+    transform: translateY(-100%);
+  }
+  100%
+  {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes scrollBottom
+{
+  0%
+  {
+    transform: translateY(100%);
+  }
+  100%
+  {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes blurAnim
+{
+  0%
+  {
+    filter: blur(30px) grayscale(0.7) opacity(0.1);
+  }
+  100%
+  {
+    filter: blur(0) grayscale(0.7) opacity(0.1);
+  }
+}
+
+.home__container
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+
+  @keyframes loaderBlockMotion
+  {
+    0%
+    {
+      top: 5%;
+    }
+    100%
+    {
+      top: 80%;
+    }
+  }
+
+  .loader
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 83.333%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $bgColor;
+    transition: 0.1s ease-out;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 999;
+
+    .loader__container
+    {
+      width: (100/1920) * 100vw;
+      height: (100/1920) * 100vw;
+      display: flex;
+      border: 1px solid $borderColor;
+
+      .loader__column
+      {
+        position: relative;
+        flex-basis: 25%;
+        padding: 5px;
+
+        .loader__cube
+        {
+          position: absolute;
+          top: 5%;
+          left: 50%;
+          width: 60%;
+          transform: translateX(-50%);
+          background-color: $textColor;
+          border-radius: $defaultBorderRadius;
+          animation: loaderBlockMotion 1s alternate infinite;
+        }
+
+        .loader__cube::before
+        {
+          content: "";
+          display: block;
+          padding-bottom: 100%;
+        }
+      }
+
+      $increment: 0;
+
+      @for $i from 2 to 5
+      {
+        .loader__column:nth-child(#{$i})
+        {
+          $increment: $increment + 0.6;
+
+          .loader__cube
+          {
+            animation: loaderBlockMotion 1s #{$increment}s alternate infinite;
+          }
+        }
+      }
+
+      .loader__column:not(:last-child)
+      {
+        border-right: 1px solid $borderColor;
+      }
+    }
+  }
+
+  .loader--visible
+  {
+    opacity: 1;
+  }
+
+  .home--content
+  {
+    width: 83.333%;
+    height: 100%;
+    overflow: hidden;
+
+    @media (max-width: $breakpoint-tablet)
+    {
+      width: 100%;
+    }
+  }
+
+  .menu
+  {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 1px solid #3C3A38;
+    background-color: rgba(23, 23, 23, 0.6);
+    width: 16.666%;
+    height: 100%;
+
+    .menu__btn
+    {
+        width: 1.666vw;
+        fill: $textColor;
+        margin-top: (50/1920) * 100vw;
+        position: absolute;
+        top: 0;
+        left: auto;
+        cursor: pointer;
+    }
+
+    .menu__optionsContainer
+    {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+      width: 100%;
+
+      .menu__optionFront
+      {
+        font-size: $fontSizeBigTitle;
+        color: $primaryColor;
+        text-align: center;
+        font-family: $frontFont;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 5px;
+        line-height: 1;
+      }
+
+      .menu__userImage
+      {
+        position: relative;
+        width: 30%;
+        border-radius: $defaultBorderRadius;
+        border: 1px solid $textColor;
+        margin-bottom: 5vh;
+        overflow: hidden;
+
+        &::after
+        {
+          content: "";
+          display: block;
+          padding-bottom: 100%;
+        }
+
+        img
+        {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .menu__option
+      {
+        width: 50%;
+        border: 1px solid $textColor;
+        font-size: $fontsizeBtns;
+        color: $primaryColor;
+        padding: $defaultPaddingBtns;
+        text-align: center;
+        font-family: $frontFont;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 5px;
+        line-height: 1;
+
+        &:not(:last-child)
+        {
+          margin-bottom: 2vh;
+        }
+      }
+
+      .menu__logout
+      {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+        border: 1px solid $textColor;
+        font-size: $fontsizeBtns;
+        color: $primaryColor;
+        padding: $defaultPaddingBtns;
+        text-align: center;
+        font-family: $frontFont;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 5px;
+        margin-bottom: (50/1920) * 100vw;
+        line-height: 1;
+        cursor: pointer;
+      }
+      
+      .active
+      {
+        color: $textColor;
+      }
+
+      .menu__optionFront:not(:last-child)
+      {
+        margin-bottom: (40/1920) * 100vw;
+      }
+
+      .menu__optionFront:hover
+      {
+        color: transparent;
+        -webkit-text-stroke: 1px $textColor;
+      }
+    }
+
+    @media (max-width: $breakpoint-tablet)
+    {
+      width: 100%;
+      transform: translateX(100%);
+    }
+  }
+}
+
+.skeleton-loading
+{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.skeleton-loading::before
+{
+  content: "";
+  display: block;
+  padding-bottom: 60%;
+}
+
+@import './sections/hero';
+@import './sections/catalog';
+@import './sections/elementInfoPage';
+@import './sections/videoPlayer';
+@import './sections/login';
+@import './sections/register';
+@import './sections/adminCDN';
+
+@import './component/mobileMenu.scss';

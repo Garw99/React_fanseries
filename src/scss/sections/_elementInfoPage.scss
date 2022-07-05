@@ -1,0 +1,731 @@
+.elementInfoPage-container
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 83.333%;
+    height: 100%;
+    background-color: $bgColor;
+    z-index: 2;
+    overflow: hidden;
+
+    &.activeVideo
+    {
+        .elementInfoPage-content
+        {
+            .elementInfoPage-cast, .elementInfoPage-centerInfo, .elementInfoPage-generalInfo
+            {
+                > img
+                {
+                    opacity: 0;
+                }
+            }
+
+            .elementInfoPage-video
+            {
+                display: block;
+            }
+        }
+    }
+
+    .elementInfoPage-content
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        z-index: 3;
+
+        .elementInfoPage-video
+        {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% !important;
+            height: 100% !important;
+            pointer-events: none;
+            z-index: 0;
+
+            video
+            {
+                width: 100%;
+                height: 100%;
+                filter: brightness(0.4) opacity(0.5) grayscale(0.6);
+                object-fit: cover;
+                object-position: center;
+                transform: scale(1.5);
+            }
+        }
+
+        .elementInfoPage-cast
+        {
+            flex-basis: 20%;
+            border-right: 1px solid $borderColor;
+            transform: translateY(-100%);
+            animation: scrollTop forwards 1s ease-out;
+            padding: 2.604vw;
+            padding-bottom: 0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            overflow: hidden;
+
+            > h4
+            {
+                font-family: $titlesFont;
+                font-size: $fontsizeMediumTitle;
+                color: $textColor;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                margin-bottom: (20/1080) * 100vh;
+            }
+
+            > img
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0.15;
+                z-index: -1;
+            }
+
+            .swiper-wrapper
+            {
+                overflow: visible;
+            }
+
+            .elementInfoPage__castContainer
+            {
+                position: relative;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                padding-bottom: 2.604vw;
+                cursor: pointer;
+                
+                .swiper-wrapper
+                {
+                    align-items: center;
+                }
+
+                .swiper-slide
+                {
+                    position: relative;
+                    width: auto;
+
+                    .castActor-block
+                    {
+                        height: 100%;
+                        border: 1px solid $borderColor;
+                        border-radius: $defaultBorderRadius;
+
+                        > img
+                        {
+                            width: 100%;
+                            height: 100%;
+                            z-index: -1;
+                            object-fit: contain;
+                            border-radius: $defaultBorderRadius;
+                            filter: grayscale(0) brightness(1);
+                            pointer-events: none;
+                            transition: 0.3s ease-out;
+                        }
+
+                        .castActor-Info
+                        {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            opacity: 0;
+                            pointer-events: none;
+                            transform: translate(-15%, -30%);
+                            transition: 0.5s ease-out;
+
+                            h3
+                            {
+                                color: $textColor;
+                                text-align: left;
+                                font-size: $fontsizeText;
+                                font-family: $textFont;
+                                text-transform: uppercase;
+                                font-weight: 300;
+                                padding: 0 0.3vw;
+                                white-space: nowrap;
+                                padding-left: 0;
+                            }
+
+                            h4
+                            {
+                                color: $specialColor;
+                                text-align: left;
+                                font-size: $fontsizeTitleText;
+                                font-family: $titlesFont;
+                                text-transform: uppercase;
+                                padding: 0.5vw 0.3vw;
+                                padding-top: 0;
+                                font-weight: 700;
+                                white-space: nowrap;
+                                padding-left: 0;
+                            }
+                        }
+
+                        .castActor-Info::after
+                        {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 60%;
+                            height: 2px;
+                            background-color: $textColor;
+                        }
+                    }
+
+                    .castActor-block:hover
+                    {
+                        > img
+                        {
+                            transition-delay: 0.6s;
+                            filter: grayscale(1) brightness(0.5);
+                        }
+
+                        .castActor-Info
+                        {
+                            transition-delay: 0.6s;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+        .elementInfoPage-cast::before
+        {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(23,23,23,0) 0%, rgba(23,23,23,1) 100%);
+            z-index: 1;
+        }
+
+        .elementInfoPage-centerInfo
+        {
+            flex-basis: 60%;
+            transform: translateY(100%);
+            animation: scrollBottom forwards 1s ease-out;
+            overflow: hidden;
+
+            > img
+            {
+                position: absolute;
+                top: 0;
+                left: -33.2%;
+                width: 100%;
+                height: 100%;
+                opacity: 0.15;
+                z-index: -1;
+            }
+
+            .elementInfoPage-centerContent
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                overflow-y: scroll;
+
+                .elementInfoPage-videoTime
+                {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    padding: 0 2.604vw;
+                    padding-top: (30/1080) * 100vh;
+                    pointer-events: none;
+                    z-index: 8;
+
+                    .elementInfoPage-currentTime
+                    {
+                        color: $textColor;
+                        font-family: $textFont;
+                        font-size: $fontsizeText;
+                        margin-right: 1vw;
+                    }
+
+                    .elementInfoPage-sliderTime
+                    {
+                        position: relative;
+                        width: 100%;
+                        height: 3px;
+                        background-color: $textColor;
+
+                        .elementInfoPage-time
+                        {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 50%;
+                            height: 3px;
+                            background-color: $specialColor;
+                        }
+                    }
+
+                    .elementInfoPage-durationTime
+                    {
+                        color: $textColor;
+                        font-family: $textFont;
+                        font-size: $fontsizeText;
+                        margin-left: 1vw;
+                    }
+                }
+
+                .centerInfo-container
+                {
+                    position: relative;
+                    margin-top: 33.333%;
+                    z-index: 2;
+
+                    > img
+                    {
+                        padding-left: 2.604vw;
+                        max-width: 26vw;
+                        max-height: 12vh;
+                        margin-bottom: (40/1080) * 100vh;
+                    }
+
+                    .centerInfo-btns
+                    {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        padding: 0 2.604vw;
+
+                        > *:not(:last-child)
+                        {
+                            margin-right: 1.041vw;
+                        }
+
+                        .centerInfo-playBtn
+                        {
+                            //bgColor, color, border, padding, weight
+                            @include button($textColor, $bgColor, none, $defaultPaddingTopBottomBtns 2vw, 700);
+                        }
+
+                        .centerInfo-controlsBtn
+                        {
+                            //bgColor, color, border, padding, weight
+                            @include button($padding: 0.75vw 0.8vw);
+                            transition: 0.3s ease-out;
+
+                            &.toWatchBtn
+                            {
+                                svg:nth-child(1)
+                                {
+                                    display: none;
+                                }
+
+                                &.active
+                                {
+                                    svg:nth-child(1)
+                                    {
+                                        display: block;
+                                        fill: $specialColor;
+                                    }
+
+                                    svg:nth-child(2)
+                                    {
+                                        display: none;
+                                    }
+                                }
+                            }
+
+                            &.favouriteBtn
+                            {
+                                svg:nth-child(1)
+                                {
+                                    display: none;
+                                }
+
+                                &.active
+                                {
+                                    svg:nth-child(1)
+                                    {
+                                        display: block;
+                                        fill: $specialColor;
+                                    }
+
+                                    svg:nth-child(2)
+                                    {
+                                        display: none;
+                                    }
+                                }
+                            }
+
+                            &.likeBtns
+                            {
+                                &.active
+                                {
+                                    svg
+                                    {
+                                        fill: $specialColor;
+                                    }
+                                }
+                            }
+
+                            &.muteBtn
+                            {
+                                margin-left: auto;
+                                
+                                svg:nth-child(1)
+                                {
+                                    display: none;
+                                }
+
+                                &.mute
+                                {
+                                    svg:nth-child(1)
+                                    {
+                                        display: block;
+                                    }
+
+                                    svg:nth-child(2)
+                                    {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+
+                        .centerInfo-controlsBtn:hover
+                        {
+                            border-color: $specialColor;
+
+                            svg
+                            {
+                                transform: scale(1.1);
+                            }
+                        }
+
+                        .centerInfo-controlsBtn:nth-child(5):hover
+                        {
+                            svg
+                            {
+                                transform: rotate(180deg) scale(1.1);
+                            }
+                        }
+
+                        .centerInfo-controlsBtn:nth-child(5)
+                        {
+                            svg
+                            {
+                                transform: rotate(180deg);
+                            }
+                        }
+
+                        .centerInfo-controlsBtn:nth-child(6)
+                        {
+                            margin-left: auto;
+                        }
+                    }
+
+                    .centerInfo-description
+                    {
+                        margin-top: 2.777vh;
+                        padding: 0 2.604vw;
+
+                        h4
+                        {
+                            font-family: $titlesFont;
+                            font-size: $fontsizeBtns;
+                            color: $textColor;
+                        }
+
+                        p
+                        {
+                            font-family: $textFont;
+                            font-size: $fontsizeText;
+                            color: $textColor;
+                            line-height: 1.3;
+                            margin-top: 0.925vh;
+                        }
+                    }
+
+                    .centerInfo__episodes
+                    {
+                        margin-top: (40/1080) * 100vh;
+
+                        .skeleton
+                        {
+                            border-radius: $defaultBorderRadius;
+                        }
+
+                        .centerInfo__episodesInfo
+                        {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            font-size: $fontsizeTitleText;
+                            color: $textColor;
+                            font-family: $titlesFont;
+                            font-weight: 700;
+                            padding: 0 2.604vw;
+
+                            .centerInfo__noSeasonsAvailable
+                            {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 100%;
+                            }
+                        }
+
+                        .centerInfo__episodesList
+                        {
+                            margin-top: (30/1080) * 100vh;
+
+                            .infinite-scroll-component__outerdiv
+                            {
+                                .infinite-scroll-component 
+                                {
+                                    padding: 0.5vw 2.604vw 2.604vw 2.604vw;
+
+                                    > p
+                                    {
+                                        color: $textColor;
+                                        font-size: $fontsizeTitleText;
+                                        font-family: $titlesFont;
+                                    }
+                                    
+                                    .centerInfo__episode:not(:last-child)
+                                    {
+                                        margin-bottom: (20/1080) * 100vh;
+                                    }
+                                    
+                                    .centerInfo__episode
+                                    {
+                                        display: flex;
+                                        width: 100%;
+                                        border: 1px solid $textColor;
+                                        border-radius: $defaultBorderRadius;
+                                        background-color: $bgColor;
+                                        transition: 0.2s ease-out;
+                                        overflow: hidden;
+
+                                        &.active
+                                        {
+                                            border-color: $specialColor;
+                                        }
+
+                                        &:hover
+                                        {
+                                            transform: scale(1.03);
+                                        }
+
+                                        .centerInfo__episodeImage
+                                        {
+                                            position: relative;
+                                            flex-basis: 20%;
+
+                                            > img
+                                            {
+                                                width: 100%;
+                                                object-fit: cover;
+                                                filter: grayscale(0.6) brightness(0.3);
+                                            }
+
+                                            p
+                                            {
+                                                position: absolute;
+                                                top: 50%;
+                                                left: 50%;
+                                                transform: translate(-50%,-50%);
+                                                z-index: 2;
+                                                font-size: $fontsizeBtns;
+                                                font-family: $fontsizeBtns;
+                                                color: $textColor;
+                                                font-weight: 500;
+                                            }
+                                        }
+
+                                        .centerInfo__episodeImage::before
+                                        {
+                                            content: "";
+                                            display: block;
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            width: 100%;
+                                            height: 100%;
+                                            background: linear-gradient(90deg, rgba(23,23,23,0) 0%, rgba(23,23,23,1) 100%);
+                                            z-index: 2;
+                                        }
+
+                                        .centerInfo__episodeTitle
+                                        {
+                                            flex-basis: 60%;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: flex-start;
+                                            padding-left: (30/1920) * 100vw;
+                                            font-size: $fontsizeTitleText;
+                                            font-family: $titlesFont;
+                                            color: $textColor;
+                                            font-weight: 500;
+                                            white-space: nowrap;
+                                            overflow: hidden;
+                                        }
+
+                                        .centerInfo__episodeDuration
+                                        {
+                                            flex-basis: 20%;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: flex-end;
+                                            padding-right: (30/1920) * 100vw;
+                                            font-size: $fontsizeTitleText;
+                                            font-family: $titlesFont;
+                                            color: $textColor;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .elementInfoPage-centerInfo::before
+        {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(23,23,23,0) 0%, rgba(23,23,23,1) 100%);
+            z-index: 1;
+        }
+
+        .elementInfoPage-generalInfo
+        {
+            flex-basis: 20%;
+            border-left: 1px solid $borderColor;
+            transform: translateY(-100%);
+            animation: scrollTop forwards 1s ease-out;
+            padding: 2.604vw;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+
+            .generalInfo-block
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+
+                .generalInfo-info
+                {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    z-index: 2;
+
+                    h4
+                    {
+                        font-family: $titlesFont;
+                        font-size: $fontsizeMediumTitle;
+                        color: $textColor;
+                        text-transform: uppercase;
+                        letter-spacing: 4px;
+                        margin-bottom: (20/1080) * 100vh;
+                        font-weight: 700;
+                    }
+
+                    p
+                    {
+                        font-family: $textFont;
+                        font-size: $fontsizeBtns;
+                        color: $textColor;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                    }
+
+                    .CircularProgressbar 
+                    {
+                        width: (120/1920) * 100vw;
+
+                        text
+                        {
+                            transform: translateY(4%);
+                            font-size: $fontsizeBtns;
+                            font-family: $titlesFont;
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+                .generalInfo-info
+                {
+                    .generalInfo__image
+                    {
+                        background-color: $textColor;
+                        padding: 1vw;
+                        border-radius: $defaultBorderRadius;
+
+                        img
+                        {
+                            height: 100%;
+                            max-width: 6vw;
+                            max-height: 6vh;
+                        }
+                    }
+                    
+                }
+            }
+
+            > img
+            {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0.15;
+                z-index: -1;
+            }
+        }
+
+        .elementInfoPage-generalInfo::before
+        {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, rgba(23,23,23,0) 0%, rgba(23,23,23,1) 100%);
+            z-index: 1;
+        }
+    }
+}

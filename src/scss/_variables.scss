@@ -1,0 +1,36 @@
+$breakpoint-tablet: 768px;
+
+$frontFont: 'Barlow Condensed', sans-serif;
+$titlesFont: 'Barlow Condensed', sans-serif;
+$textFont: 'Maitree', serif;
+
+$fontSizeBigTitle: (46/1920) * 100vw;
+$fontsizeMediumTitle: (38/1920) * 100vw;
+$fontsizeBtns: (28/1920) * 100vw;
+$fontsizeTitleText: (22/1920) * 100vw;
+$fontsizeText: (16/1920) * 100vw;
+
+$fontMinimumText: (14/1920) * 100vw;
+
+$specialColor: #de5023;
+$bgColor: #171717;
+$textColor: #EDF2F5;
+$primaryColor: #707070;
+$borderColor: #3C3A38;
+
+$defaultBorderRadius: 0.12rem;
+
+$defaultPaddingLeft: (80/1920) * 100vw;
+$defaultPaddingTop: (80/1080) * 100vh;
+
+$defaultPaddingTopBottomBtns: 0.6vw;
+$defaultPaddingLeftRightBtns: 1vw;
+$defaultPaddingBtns: $defaultPaddingTopBottomBtns $defaultPaddingLeftRightBtns;
+
+$defaultWidthHeroPageIcons: 2.125vw;
+
+$defaultWidthIcon: 1vw;
+$defaultHeightIcon: 1vw;
+
+$videoPlayerDefaultWidthIcon: 1.4vw;
+$videoPlayerDefaultHeightIcon: 1.4vw;
